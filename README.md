@@ -51,4 +51,4 @@ delayed-auto(자동(지연된 시작)) - Specifies a services that starts automa
 ```
 
 
-[Windows_Service_Program.zip](/uploads/ccb970fd407519efe62f8b005aa913fa/Windows_Service_Program.zip)
+[Windows_Service_Program.zip](./build/Windows%20Service%20Program.zip)
