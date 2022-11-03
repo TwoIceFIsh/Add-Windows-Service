@@ -50,5 +50,13 @@ delayed-auto(자동(지연된 시작)) - Specifies a services that starts automa
 다른 auto 서비스가 시작된 다음 시간이 조금 지난 뒤 실행되는 서비스
 ```
 
+<br>
 
-[Windows_Service_Program.zip](./build/Windows%20Service%20Program.zip)
+다운로드
+> [Windows_Service_Program.zip](./build/Windows%20Service%20Program.zip)
+
+<br>
+
+인용 및 참고
+
+>https://github.com/kardianos/service
