@@ -10,7 +10,7 @@
 
 1. json 파일 수정
 ```
-{
+
 {
   "Name": "Antigravity-Agent-Service",
   "DisplayName": "Antigravity-Agent-Service",
@@ -29,7 +29,7 @@
   "Stderr": "C:\\builder_err.log",
   "Stdout": "C:\\builder_out.log"
 }
-}
+
 ```
 
 2. 서비스 프로그램 서비스 등록
