@@ -5,12 +5,11 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
+	"github.com/kardianos/service"
 	"log"
 	"os"
 	"os/exec"
 	"path/filepath"
-
-	"github.com/kardianos/service"
 )
 
 // Config is the runner app config structure.
