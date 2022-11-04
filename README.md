@@ -11,8 +11,24 @@
 1. json 파일 수정
 ```
 {
-"Name" : "등록할 서비스 이름",
-"exec": "C:\\programming\\서비스와 상호작용 할 프로그램"
+{
+  "Name": "Antigravity-Agent-Service",
+  "DisplayName": "Antigravity-Agent-Service",
+  "Description": "Run the Go Builder",
+
+  "Dir": "C:\\Program Files\\Anti-Gravity\\bin",
+  "Exec": "C:\\Program Files\\Anti-Gravity\\bin\\Antigravity-Agent.exe",
+  "Args": [""],
+  "Env": [
+    "PATH=C:\\TDM-GCC-64\\bin;C:\\Program Files (x86)\\Git\\cmd",
+    "GOROOT_BOOTSTRAP=C:\\dev\\go_ready",
+    "HOMEDRIVE=C:",
+    "HOMEPATH=\\Documents and Settings\\Administrator"
+  ],
+
+  "Stderr": "C:\\builder_err.log",
+  "Stdout": "C:\\builder_out.log"
+}
 }
 ```
 
