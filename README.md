@@ -1,6 +1,6 @@
 ## 다운로드
 
-[Add-Windows-Service.zip](/uploads/Add-Windows-Service.zip)
+[Add-Windows-Service.zip](/build/Add-Windows-Service.zip)
 
 ## 프로그램 설명
 
