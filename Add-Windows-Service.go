@@ -86,12 +86,24 @@ func (p *program) run() {
 
 	return
 }
+func killProcessByName(procname string) int {
+	kill := exec.Command("taskkill", "/im", procname, "/T", "/F")
+	err := kill.Run()
+	if err != nil {
+		return -1
+	}
+	return 0
+}
 func (p *program) Stop(s service.Service) error {
 	close(p.exit)
 	logger.Info("Stopping ", p.DisplayName)
+
 	if p.cmd.Process != nil {
 		p.cmd.Process.Kill()
+		_ = killProcessByName("AntiGravity-Agent.exe")
+		_ = killProcessByName("AntiGravity-Update.exe")
 	}
+
 	if service.Interactive() {
 		os.Exit(0)
 	}
